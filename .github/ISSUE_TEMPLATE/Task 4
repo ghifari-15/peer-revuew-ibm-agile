@@ -1,0 +1,15 @@
+Feature: Create new task
+
+Scenario: User successfully creates a new task with all information
+Given I am on the DailyTasker application homepage
+When I enter "Selesaikan Laporan Proyek Akhir" in the task description field
+And I select the due date for tomorrow
+And I press the "Add Task" button
+Then the task "Selesaikan Laporan Proyek Akhir" with tomorrow's due date will appear in my task list.
+
+Scenario: User tries to create a new task without a description
+Given I am on the DailyTasker application homepage
+When I enter nothing in the task description field
+And I press the "Add Task" button
+Then I will see an error message "Task description cannot be empty"
+And a new task will not be created.
