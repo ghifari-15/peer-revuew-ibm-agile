@@ -1,38 +1,24 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+title: "[BUG] - Tanggal jatuh tempo tidak tersimpan setelah edit tugas"
+labels: bug
 assignees: ''
 
----
+**Deskripsi Bug:**
+Ketika saya mencoba mengedit tugas yang sudah ada untuk mengubah tanggal jatuh temponya, perubahan tanggal tersebut tidak tersimpan. Setelah menyimpan, tanggal jatuh tempo kembali ke tanggal semula sebelum diedit.
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Langkah-langkah untuk Reproduksi:**
+1. Pergi ke halaman daftar tugas.
+2. Buat tugas baru dengan deskripsi "Tes Edit Tanggal" dan tanggal jatuh tempo '2025-06-10'.
+3. Simpan tugas. Pastikan tugas muncul dengan tanggal yang benar.
+4. Klik pada tugas "Tes Edit Tanggal" untuk membukanya dalam mode edit.
+5. Ubah field tanggal jatuh tempo menjadi '2025-06-12'.
+6. Klik tombol "Simpan Perubahan".
+7. Amati tanggal jatuh tempo yang ditampilkan untuk tugas "Tes Edit Tanggal" di daftar tugas.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Perilaku yang Diharapkan:**
+Tanggal jatuh tempo untuk tugas "Tes Edit Tanggal" seharusnya berubah dan menampilkan '2025-06-12'.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Perilaku Aktual:**
+Tanggal jatuh tempo untuk tugas "Tes Edit Tanggal" tetap menampilkan '2025-06-10', tidak berubah sesuai editan.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**Screenshot (jika ada):**
+(Saya akan melampirkan screenshot di sini jika ini adalah laporan bug sungguhan yang menu
