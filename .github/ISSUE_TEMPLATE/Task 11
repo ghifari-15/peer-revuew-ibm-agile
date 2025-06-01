@@ -1,0 +1,6 @@
+For my DailyTasker project, let's say the process of moving task statuses on the Kanban board (Task 9) and updating the burndown chart (Task 10) is still done manually and separately from the code commit system. This is inefficient.
+
+Therefore, I am creating the following User Story/Task with the label technical debt:
+
+User Story: "As a developer, I need automatic integration between code commits and updates to task statuses on the Kanban board and burndown chart calculations, so that progress tracking is more synchronized and manual work is reduced."
+Labels: technical debt, automation, tools
